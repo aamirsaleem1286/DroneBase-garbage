@@ -35,7 +35,7 @@ const MapComponent = () => {
             </div>
             {location.lat && location.long ? (
                 <MapContainer center={[location.lat, location.long]} zoom={13} style={{ height: "560px", width: "100%" }}>
-                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
+                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attributionControl={true} attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
                     <Marker position={[location.lat, location.long]}>
                         <Popup>
                             Latitude: {location.lat}, Longitude: {location.long}
