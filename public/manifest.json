@@ -9,7 +9,7 @@
     "description": "Hardware-Accelerated Deep Learning For Drone-Based Garbage Detection",
     "icons": [
         {
-            "src": "/logo.jpg",
+            "src": "/welcomeimage.jpg",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
